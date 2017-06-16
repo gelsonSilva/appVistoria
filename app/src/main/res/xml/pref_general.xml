@@ -1,0 +1,106 @@
+<PreferenceScreen xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:key="edit_text_data"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Data inspeção" />
+
+    <EditTextPreference
+        android:key="edit_text_horario"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Horário" />
+
+    <EditTextPreference
+        android:key="edit_text_rg"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="RG" />
+
+    <EditTextPreference
+        android:key="edit_text_motorista"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Motorista" />
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/pref_veiculos_names"
+        android:entryValues="@array/pref_veiculos_values"
+        android:key="select_veiculo"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="Tipo Veiculo" />
+    <EditTextPreference
+        android:key="edit_text_placa"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Placa" />
+    <EditTextPreference
+        android:defaultValue="1234"
+        android:key="edit_text_hodometro"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Hodometro" />
+    <EditTextPreference
+        android:key="edit_text_pref_vtr"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Prefixo Vtr" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="switch_oleo_motor"
+        android:title="Oleo de Motor" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="switch_oleo_freio"
+        android:title="Oleo de Freio" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="switch_oleo_direcao"
+        android:title="Oleo direção" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="switch_farol"
+        android:title="Farol" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="switch_pisca"
+        android:title="Pisca" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="switch_pneu"
+        android:title="Pneu" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="switch_estepe"
+        android:title="Estepe" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="switch_agua"
+        android:title="Agua Radiador" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="switch_chave_roda"
+        android:title="Chave de Roda" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="switch_macaco"
+        android:title="Macaco" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="switch_triangulo"
+        android:title="Triângulo" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="switch_extintor"
+        android:title="Extintor" />
+
+    <EditTextPreference
+        android:key="edit_text_obs"
+        android:selectAllOnFocus="true"
+        android:singleLine="false"
+        android:title="Observações" />
+
+</PreferenceScreen>
